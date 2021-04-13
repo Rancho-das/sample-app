@@ -32,7 +32,10 @@ jobs:
         uses: Borales/actions-yarn@v2.3.0
         with: 
          cmd: install
-           
+        
+      - name: install node modules
+        run: npm install  
+      
       - name: creating build for app
         run: npm run build
 
