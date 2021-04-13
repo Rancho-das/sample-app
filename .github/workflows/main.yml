@@ -31,7 +31,7 @@ jobs:
       - name: GitHub Action for Yarn install kr raha hu
         uses: Borales/actions-yarn@v2.3.0
         with: 
-           cmd: install
+         cmd: install
            
       - name: creating build for app
         run: npm run build
